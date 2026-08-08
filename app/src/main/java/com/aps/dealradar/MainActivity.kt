@@ -2,9 +2,11 @@
 package com.aps.dealradar
 
 import android.app.Application
-import dagger.hilt.android.HiltAndroidApp
 
+import dagger.hilt.android.HiltAndroidApp
+import dagger.hilt.android.AndroidEntryPoint
 @HiltAndroidApp
+@AndroidEntryPoint
 class DealRadarApp : Application()
 
 import android.os.Bundle
