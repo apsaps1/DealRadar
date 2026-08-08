@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "com.aps.dealradar"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.aps.dealradar"
